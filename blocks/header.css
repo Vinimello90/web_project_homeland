@@ -25,6 +25,21 @@
   display: block;
   width: 100%;
   max-width: 967px;
-  margin: 64px auto 92px;
+  margin: 64px auto 0;
   filter: grayscale(100%);
+}
+
+@media screen and (max-width: 950px) {
+  .header__title {
+    font-size: 75px;
+  }
+
+  .header__subtitle {
+    margin-top: 25px;
+  }
+
+  .header__img {
+    margin: 30px 0 0;
+    max-width: 100%;
+  }
 }

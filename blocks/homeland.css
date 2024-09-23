@@ -1,12 +1,12 @@
 .homeland {
   max-width: 967px;
-  margin: 0 auto;
+  margin: 92px auto;
 }
 
 .homeland__title {
   font-size: 54px;
   line-height: 1.05;
-  max-width: 830px;
+  max-width: 829px;
   margin: 0;
 }
 
@@ -28,7 +28,18 @@
   align-self: flex-end;
 }
 
-.homeland__description {
+.homeland__text {
   max-width: 725px;
-  margin: 32px 0 92px;
+  margin: 32px 0 0;
+}
+
+@media screen and (max-width: 950px) {
+  .homeland {
+    max-width: 720px;
+    margin: 90px auto;
+  }
+
+  .homeland__title {
+    font-size: 45px;
+  }
 }
