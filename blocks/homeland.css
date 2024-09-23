@@ -1,0 +1,34 @@
+.homeland {
+  max-width: 967px;
+  margin: 0 auto;
+}
+
+.homeland__title {
+  font-size: 54px;
+  line-height: 1.05;
+  max-width: 830px;
+  margin: 0;
+}
+
+.homeland__quote {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  max-width: 738px;
+}
+
+.homeland__quote-text {
+  font-size: 24px;
+  margin: 0;
+}
+
+.homeland__quote-cite {
+  font-size: 24px;
+  font-style: normal;
+  align-self: flex-end;
+}
+
+.homeland__description {
+  max-width: 725px;
+  margin: 32px 0 92px;
+}
