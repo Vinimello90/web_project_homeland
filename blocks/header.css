@@ -1,0 +1,28 @@
+.header__logo {
+  display: block;
+  width: 254px;
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 96px;
+  line-height: 1.05;
+  max-width: 720px;
+  text-align: center;
+  margin: 90px auto 0;
+}
+
+.header__subtitle {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 32px auto 0;
+  max-width: 720px;
+  text-align: center;
+}
+
+.header__img {
+  width: 100%;
+  margin: 64px 0 92px;
+  filter: grayscale(100%);
+}
