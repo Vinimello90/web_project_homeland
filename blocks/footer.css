@@ -1,5 +1,21 @@
+.footer {
+  padding: 92px 0 18px;
+}
+
 .footer__copyright {
   font-size: 14px;
   text-align: center;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 88px 0 15px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    padding-top: 64px;
+  }
 }

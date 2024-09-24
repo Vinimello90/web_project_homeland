@@ -1,6 +1,6 @@
 .homeland {
   max-width: 967px;
-  margin: 92px auto;
+  margin: 0 auto;
 }
 
 .homeland__title {
@@ -20,6 +20,7 @@
 .homeland__quote-text {
   font-size: 24px;
   margin: 0;
+  line-height: 1.4;
 }
 
 .homeland__quote-cite {
@@ -31,15 +32,45 @@
 .homeland__text {
   max-width: 725px;
   margin: 32px 0 0;
+  line-height: 1.7;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
   .homeland {
-    max-width: 720px;
-    margin: 90px auto;
+    max-width: 93.75vw;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .homeland__title {
     font-size: 45px;
+  }
+
+  .homeland__quote {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .homeland {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .homeland__title {
+    font-size: 32px;
+  }
+
+  .homeland__quote {
+    margin-top: 40px;
+  }
+
+  .homeland__quote-cite {
+    line-height: 2.2;
+  }
+
+  .homeland__text {
+    margin-top: 32px;
   }
 }
