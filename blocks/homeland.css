@@ -13,8 +13,8 @@
 .homeland__quote {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
   max-width: 738px;
+  margin-top: 40px;
 }
 
 .homeland__quote-text {
