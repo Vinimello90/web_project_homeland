@@ -1,6 +1,6 @@
 # TripleTen - Projeto Homeland
 
-Este é um projeto da Tripleten Art Gallery, destinado a profissionais compartilharem histórias e fotos de suas cidades natais, fazendo com que futuros profissionais de tecnologia se sintam em casa. O layout é responsivo, adaptando-se a diferentes tamanhos de tela, utilizando `unidades de medida relativas` e `media queries` para ajustar o design conforme os pontos de interrupção, garantindo que o layout permaneça intacto e não esteja quebrando.
+Este é um projeto da Tripleten Art Gallery - Homeland, destinado a profissionais compartilharem histórias e fotos de suas cidades natais, fazendo com que futuros profissionais de tecnologia se sintam em casa. O layout é responsivo, adaptando-se a diferentes tamanhos de tela, utilizando `unidades de medida relativas` e `media queries` para ajustar o design conforme os pontos de interrupção, garantindo que o layout permaneça intacto e não esteja quebrando.
 
 ## Tecnologias
 
