@@ -22,5 +22,6 @@ As `media queries` foram implementadas para ajustar o layout de acordo com os po
 - 768-1280px (1024px)
 - 1280px e acima
 
-<a href="https://vinimello90.github.io/web_project_homeland/">Página do Projeto Homeland</a>
-<a href="https://vinimello90.github.io/web_project_homeland/"><img src="./images/readme.png" alt="Imagem do header"></a>
+Para ver o projeto em produção clique <a href="https://vinimello90.github.io/web_project_homeland/">aqui</a>.
+
+<img src="./images/readme.png" alt="Imagem do header" width="100%">
