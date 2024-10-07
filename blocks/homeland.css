@@ -5,7 +5,7 @@
 
 .homeland__title {
   font-size: 54px;
-  line-height: 1.05;
+  line-height: 1.074;
   max-width: 829px;
   margin: 0;
 }
@@ -27,12 +27,14 @@
   font-size: 24px;
   font-style: normal;
   align-self: flex-end;
+  line-height: 1.4;
+  margin-top: 10px;
 }
 
 .homeland__text {
   max-width: 725px;
   margin: 32px 0 0;
-  line-height: 1.7;
+  line-height: 1.63;
 }
 
 @media screen and (max-width: 1024px) {
@@ -66,8 +68,8 @@
     margin-top: 40px;
   }
 
-  .homeland__quote-cite {
-    line-height: 2.2;
+  .homeland__quote-text {
+    line-height: 1.25;
   }
 
   .homeland__text {
