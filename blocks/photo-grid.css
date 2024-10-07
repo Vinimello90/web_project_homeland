@@ -2,7 +2,6 @@
   display: grid;
   max-width: 1184px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
   gap: 16px;
   margin: 118px auto 92px;
   padding: 0 12px;
@@ -16,7 +15,6 @@
   .photo-grid {
     margin: 64px auto 88px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
     padding: 0;
     max-width: 93.75vw;
   }
