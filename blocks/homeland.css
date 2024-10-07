@@ -34,7 +34,6 @@
 .homeland__text {
   max-width: 725px;
   margin: 32px 0 0;
-  line-height: 1.63;
 }
 
 @media screen and (max-width: 1024px) {

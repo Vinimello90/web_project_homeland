@@ -1,0 +1,72 @@
+.place__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title artist" "image paragraph" ". paragraph";
+}
+
+.place__title {
+  grid-area: title;
+  max-width: 460px;
+  font-size: 72px;
+  line-height: 1.055;
+  margin: 0 0 48px;
+}
+
+.place__container-artist {
+  margin: auto 0 48px;
+}
+
+.place__url-heading {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  margin: 0 0 8px;
+}
+
+.place__artist {
+  grid-area: artist;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+}
+
+.place__container-paragraph {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+  gap: 25px;
+}
+
+.place__paragraph {
+  font-size: 18px;
+  height: fit-content;
+  margin: 0;
+}
+
+.place__container-image {
+  max-width: 460px;
+  font-size: 0;
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.place__nft-link {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13px 20.875px;
+  margin-top: 48px;
+  width: fit-content;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  line-height: 1.2305;
+}

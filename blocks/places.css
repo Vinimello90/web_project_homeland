@@ -1,0 +1,12 @@
+.places {
+  margin-bottom: 92px;
+}
+
+.places__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 984px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
