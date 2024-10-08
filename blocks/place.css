@@ -62,9 +62,10 @@
 .place__nft-link {
   display: block;
   grid-area: nft-link;
+  text-align: center;
   font-size: 18px;
   font-weight: 600;
-  padding: 13px 20.875px;
+  padding: 13px 20px;
   width: fit-content;
   border-radius: 4px;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -96,6 +97,10 @@
 
   .place__paragraph {
     font-size: 16px;
+  }
+
+  .place__nft-link {
+    margin-right: 13px;
   }
 }
 
@@ -131,6 +136,16 @@
   .place__nft-link {
     font-size: 14px;
     grid-area: nft-link;
-    margin-top: 0;
+    margin: 0;
+    padding: 15px 21px;
+  }
+
+  .place__nft-link:hover {
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  }
+
+  .place__image:hover {
+    opacity: 1;
+    box-shadow: none;
   }
 }
