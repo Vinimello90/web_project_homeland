@@ -5,6 +5,7 @@
 .places__list {
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 80px;
   max-width: 984px;
   margin: 0 auto;
   list-style-type: none;
