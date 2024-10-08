@@ -1,7 +1,8 @@
 .place__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "title artist" "image paragraph" ". paragraph";
+  grid-template-areas: "title artist" "image paragraph" "nft-link paragraph" ". paragraph";
+  row-gap: 48px;
 }
 
 .place__title {
@@ -9,11 +10,11 @@
   max-width: 460px;
   font-size: 72px;
   line-height: 1.055;
-  margin: 0 0 48px;
+  margin: 0;
 }
 
 .place__container-artist {
-  margin: auto 0 48px;
+  margin: auto 0 0;
 }
 
 .place__url-heading {
@@ -45,16 +46,11 @@
   margin: 0;
 }
 
-.place__container-image {
-  max-width: 460px;
-  font-size: 0;
-}
-
 .place__image {
   position: relative;
   grid-area: image;
-  width: 100%;
-  margin: 0;
+  width: 460px;
+  margin-right: 40px;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -65,10 +61,10 @@
 
 .place__nft-link {
   display: block;
+  grid-area: nft-link;
   font-size: 18px;
   font-weight: 600;
   padding: 13px 20.875px;
-  margin-top: 48px;
   width: fit-content;
   border-radius: 4px;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -84,4 +80,57 @@
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 44.272vw;
+    margin-right: 28px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    width: 44.272vw;
+    line-height: 1.1;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .place__content {
+    place-items: center;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "artist" "image" "paragraph" "nft-link";
+  }
+
+  .place__title {
+    font-size: 32px;
+    width: 90vw;
+    margin: 0;
+  }
+
+  .place__container-artist {
+    width: 90vw;
+    margin: 0;
+  }
+
+  .place__paragraph {
+    width: 90vw;
+  }
+
+  .place__image {
+    width: 100%;
+    margin-right: 0;
+    box-shadow: none;
+  }
+
+  .place__nft-link {
+    font-size: 14px;
+    grid-area: nft-link;
+    margin-top: 0;
+  }
 }

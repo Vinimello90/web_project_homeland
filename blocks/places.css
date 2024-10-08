@@ -1,5 +1,5 @@
 .places {
-  margin-bottom: 92px;
+  margin-bottom: 90px;
 }
 
 .places__list {
@@ -10,4 +10,21 @@
   margin: 0 auto;
   list-style-type: none;
   padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__list {
+    max-width: 93.75vw;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    margin-bottom: 65px;
+  }
+
+  .places__list {
+    max-width: 100%;
+    gap: 50px;
+  }
 }
