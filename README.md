@@ -29,23 +29,23 @@ O `Grid` foi usado na galeria fotos da seção do photo-grid e nos elementos da 
 
 - Seção Photo-grid
 
-  <img src="./images/photo-grid-section.png" alt="Imagem do header" width="60%">
+  <img src="./images/photo-grid-section.png" alt="Imagem do header" width="85%">
 
 - Seção Places
 
-  <img src="./images/places.png" alt="Imagem do header" width="60%">
+  <img src="./images/places.png" alt="Imagem do header" width="85%">
 
 ### Hover e Box-shadow
 
 Foi aplicado a pseudo-classe `:hover` na parte interativa para mudar o estilo quando o usuário passar o cursor sobre o elemento e o `box-shadow` foi usado para adicionar profundidade a alguns elementos aplicando um efeito de sombra.
 
-<img src="./images/hover-shadow.png" alt="Imagem do header" width="60%">
+<img src="./images/hover-shadow.png" alt="Imagem do header" width="85%">
 
 ### Media Queries
 
 As `media queries` foram implementadas para ajustar o layout de acordo com os pontos de interrupção e garantir a responsividade em várias resoluções de tela. Foram adicionados dois pontos de interrupção para assegurar a responsividade, foram definidos com base em três intervalos:
 
-<img src="./images/homeland.png" alt="Imagem do header" width="40%">
+<img src="./images/homeland.png" alt="Imagem do header" width="80%">
 
 - 320-768px (544px)
 - 768-1280px (1024px)
