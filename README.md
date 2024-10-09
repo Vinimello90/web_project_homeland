@@ -29,17 +29,17 @@ O `Grid` foi usado na galeria fotos da seção do photo-grid e nos elementos da 
 
 - Seção Photo-grid
 
-  <img src="./images/photo-grid-section.png" alt="Imagem do header" width="85%">
+<img src="./images/photo-grid-section.png" alt="Imagem do header" width="100%">
 
 - Seção Places
 
-  <img src="./images/places.png" alt="Imagem do header" width="85%">
+<img src="./images/places.png" alt="Imagem do header" width="100%">
 
 ### Hover e Box-shadow
 
 Foi aplicado a pseudo-classe `:hover` na parte interativa para mudar o estilo quando o usuário passar o cursor sobre o elemento e o `box-shadow` foi usado para adicionar profundidade a alguns elementos aplicando um efeito de sombra.
 
-<img src="./images/hover-shadow.png" alt="Imagem do header" width="85%">
+<img src="./images/hover-shadow.png" alt="Imagem do header" width="100%">
 
 ### Media Queries
 
@@ -49,6 +49,10 @@ As `media queries` foram implementadas para ajustar o layout de acordo com os po
 - 768-1280px (1024px)
 - 1280px e acima
 
-   <img src="./images/homeland.png" alt="Imagem do header" width="80%">
+<img src="./images/homeland.png" alt="Imagem do header" width="100%">
 
 Para ver o projeto em execução clique <a href="https://vinimello90.github.io/web_project_homeland/">aqui</a>.
+
+## Planos de melhoria do projeto
+
+- Espaço para adicionar videos das cidades.
