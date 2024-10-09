@@ -50,6 +50,10 @@
   .homeland__quote {
     margin-top: 50px;
   }
+
+  .homeland__quote-cite {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 544px) {
@@ -69,6 +73,10 @@
 
   .homeland__quote-text {
     line-height: 1.25;
+  }
+
+  .homeland__quote-cite {
+    margin-top: 10px;
   }
 
   .homeland__text {
