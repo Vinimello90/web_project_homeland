@@ -2,6 +2,8 @@
 
 Este é um projeto da Tripleten Art Gallery - Homeland, destinado a profissionais compartilharem histórias e fotos de suas cidades natais, fazendo com que futuros profissionais de tecnologia se sintam em casa. O layout é responsivo, adaptando-se a diferentes tamanhos de tela, utilizando `unidades de medida relativas` e `media queries` para ajustar o design conforme os pontos de interrupção, garantindo que o layout permaneça intacto e não esteja quebrando.
 
+**Para ver o projeto em execução clique <a href="https://vinimello90.github.io/web_project_homeland/">aqui</a>.**
+
 ## Tecnologias
 
 - HTML5 semântico
@@ -50,8 +52,6 @@ As `media queries` foram implementadas para ajustar o layout de acordo com os po
 - 1280px e acima
 
 <img src="./images/homeland.png" alt="Imagem do header" width="100%">
-
-Para ver o projeto em execução clique <a href="https://vinimello90.github.io/web_project_homeland/">aqui</a>.
 
 ## Planos de melhoria do projeto
 
