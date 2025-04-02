@@ -6,7 +6,7 @@ Este projeto adota um layout responsivo, que se adapta a diferentes tamanhos de 
 
 **Veja o projeto em execução clicando [aqui](https://vinimello90.github.io/web_project_homeland/).**
 
-## Tecnologias Utilizadas
+## Tecnologias e Metodologias
 
 - HTML5 semântico
 - Metodologia BEM
